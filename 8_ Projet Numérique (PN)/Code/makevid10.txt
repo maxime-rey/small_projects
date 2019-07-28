@@ -1,0 +1,25 @@
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/Rho/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/u/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/v/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+         cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/E/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+   
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/Rho/
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i picdata_%04d0.dat.jpeg -vcodec mpeg4 -y movie.mp4
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/u/
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i picdata_%04d0.dat.jpeg -vcodec mpeg4 -y movie.mp4
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/v/
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i picdata_%04d0.dat.jpeg -vcodec mpeg4 -y movie.mp4
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/E/
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i picdata_%04d0.dat.jpeg -vcodec mpeg4 -y movie.mp4

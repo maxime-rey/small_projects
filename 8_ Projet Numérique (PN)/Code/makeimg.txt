@@ -1,0 +1,16 @@
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/Rho/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb;set cbrange [1e-26:1e-22]; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/u/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/v/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/E/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set logscale zcb;set cbrange [1e22:1e29]; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done

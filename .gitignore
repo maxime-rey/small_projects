@@ -1,0 +1,20 @@
+# Don't track content of these folders
+2_ Astrophysique Stellaire (AS)/
+3_ Milieu Interstellaire (MIS)/
+4_ Cosmologie Observationelle (CO)/
+5_ Instrumentation Astrophysique (IA)/
+6_ Formation et Evolution des Galaxies (FEG)/
+7_ Formation Stellaire et Planétaire (FSP)/
+10_Stage/
+11_ Présentations - Rapports/
+12_Thèses/Jeremy_Blaizot_CRAL
+XX_Grades/
+
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe

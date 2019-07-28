@@ -1,0 +1,17 @@
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/Rho/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/u/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/E/
+   for i in `ls data_*`; 
+      do C:/Program\ Files/gnuplot/bin/gnuplot -e "set term jpeg; set palette rgbformulae 22,13,-31; set pm3d map; set size square; splot '$i' u 1:2:3" > pic$i.jpeg; 
+   done
+
+cd C:/Users/Maxime/Desktop/Projet\ Num/Code/Data/
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i Rho/picdata_%05d.dat.jpeg -vcodec mpeg4 -y rho_lin.mp4
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i u/picdata_%05d.dat.jpeg -vcodec mpeg4 -y u_lin.mp4
+    C:/minGW/FFmpeg/bin/ffmpeg -f image2 -r 2 -i E/picdata_%05d.dat.jpeg -vcodec mpeg4 -y E_lin.mp4 
