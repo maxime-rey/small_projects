@@ -87,7 +87,6 @@ while True:
 ############################################################################################################################## Display
     for i in range (n):
         for j in range (m):
-            print(grid[i,j], droplength[i,j,1])
             canvas.create_text(i*width/n, j*height/m+5, text=grid[i,j], font="Arial 8", fill=colors[droplength[i,j,1]])
     canvas.pack()
     time.sleep(rainspeed)

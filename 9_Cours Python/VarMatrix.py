@@ -5,7 +5,7 @@ rainspeed = 0.01                            #Delta t in sec (characterises the s
 probadrop = 0.05                            #Proabbility that a new segment is created (1=100%)
 umbsize = 2                                 #Size of the Umbrella /2
 columb = ["white"]                          #Color of the umbrella 
-addonumb = 0                                #Add-on for umbrella: 0=off
+addonumb = 1                                #Add-on for umbrella: 0=off
 
 # colrain = ["green",]                        #Select set of colors (all at #http://www.science.smith.edu/dftwiki/index.php/Color_Charts_for_TKinter)
 # colrain = ["white", "green", 'yellow', 'blue', 'red',]    
