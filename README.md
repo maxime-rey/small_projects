@@ -8,7 +8,7 @@ Several projects made in 2018-2019.
 **9_Cours Python** contains the work made for an evaluated project. The instructions were to do something in __Python__ in __1 day__ that could be judged. So I made a __Matrix rain__ with several add-ons. The result at the end of the project is the script Matrix_v1.6.0.py and needs to be launched alongside VarMatrix.py.   
 Afterwards I improved it a bit by shifting the logic of the script to make it faster. This corresponds Matrix_v2.0.py (still in dev)s and needs to be launched with VarMatrix2.py.  
 The following picture shows a screenshot of the result with the umbrella add-on. 
-![](9_Cours Python/Images/Matrix_umb.png)
+![](9_Cours%20Python/Images/Matrix_umb.png)
 
 **12_Thèses/Anna_Pillepich** corresponds to two small exercises made "to check whether [one] can be a good match for the group and position". They are both done on the same jupyter file.
 1. plot the stellar mass - total halo mass relation of galaxies at z=0: scatter plot (one dot one galaxy) + a running median in bins of halo mass.  
