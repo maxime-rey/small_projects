@@ -2,7 +2,7 @@
 Several projects made in 2018-2019. 
 
 
-**1_ Semaine Observatoire (OHP)** is the work made with two other students during a week at the _Observatoire de Haute Provences_"_ (OHP). It contains the data taken, a useful article and the report made "Étude photométrique de l’amas ouvert NGC 1245" (sadly, in French only). The two following pictures show the effect of extinction on the built HR-diagram and the HR-diagram superposed with corresponding isochrone.  
+**1_ Semaine Observatoire (OHP)** is the work made with two other students during a week at the _Observatoire de Haute-Provence_"_ (OHP). It contains the data taken, a useful article and the report made "Étude photométrique de l’amas ouvert NGC 1245" (sadly, in French only). The two following pictures show the effect of extinction on the built HR-diagram and the HR-diagram superposed with corresponding isochrone.  
 <p align="center">
 <img src="1_%20Semaine%20Observatoire%20(OHP)/Images/HR_diagram_extinction.png" width="350"> <img src="1_%20Semaine%20Observatoire%20(OHP)/Images/HR_diagram_isochrone.png" width="400">  
 </p>
